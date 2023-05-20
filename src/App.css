@@ -1,0 +1,30 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+#wrap {
+  max-width: 768px;
+  height: 100vh;
+  margin: 0 auto;
+}
+#header > .menu_area {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #11111133;
+}
+.menu_area_L {
+  height: 100%;
+}
+/* 
+.menu_area_L > .home_btn {
+
+babelrc 설정 어떻게 하는가
+}
+*/

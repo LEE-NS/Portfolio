@@ -21,4 +21,3 @@
 - Rsp game - react</br>
 - weather api - react(api)</br>
 - shopping mall - react(route, redux, api)
->>>>>>> d74fd89aafdd6660420c72914bc3a361a0eec9a1

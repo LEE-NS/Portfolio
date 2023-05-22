@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* 
+<메모장>
+
+모바일 사이즈는 hover 효과 제거 
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+
+#wrap {
+  height: 100vh;
+  margin: 0 auto;
+}
+#header > .menu_area {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  background-color: #bbbbbb33;
+}
+.menu_area_L {
+  width: 20%;
+  height: 50px;
+}
+.home_icon_area {
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 99999px;
+  cursor: pointer;
+  transition: 0.1s;
+  background-color: #fff;
+}
+.home_icon_area:hover {
+  background-color: #59815b;
+}
+.home_icon_area:hover .home_btn {
+  color: #fff;
+}
+.menu_area_R {
+  width: 80%;
+  height: 50px;
+}
+.menu_area_R > ul {
+  display: flex;
+  justify-content: right;
+}
+.menu_area_R > ul > li {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_area_R > ul > li:last-child {
+  margin-right: 0px;
+}
+.icon_area {  
+  width: 50px;
+  height: 50px;
+  padding: 10px 15px;
+  line-height: 30px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+
+  background-color: #fff;
+  border-radius: 99999px;
+}
+.icon_wrap {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.ctg_name {
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  text-indent: 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.menu_area_R > ul > li:hover .icon_area {
+  width: 150px;
+  background-color: #59815b;
+  color: #fff;
+}
+
+

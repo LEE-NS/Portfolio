@@ -20,6 +20,6 @@ function App() {
 export default App;
 
 /* 
-페이지 하나에 여러 컴포넌트가 재랜더링 - 리액트의 방식
+Welcome 컴포넌트는 화면 전체를 가려야 한다. 페이지로 만들어야 하나?
 
 */

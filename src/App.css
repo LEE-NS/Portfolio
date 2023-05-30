@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/* 
+<메모장>
+
+모바일 사이즈는 hover 효과 제거 
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -7,24 +13,89 @@
 ul {
   list-style: none;
 }
+a {
+  color: inherit;
+}
 
-#wrap {
-  max-width: 768px;
+/* App.js */
+#main_wrap {
+  min-width: 768px;
   height: 100vh;
   margin: 0 auto;
+  background-color: bisque;
+}
+
+/* Component - Navbar.js (pc) */
+#nav_wrap {
+  height: 90px;
+  margin: 0 auto;
+}
+#header {
+  width: 100%;
+  height: 80px;
 }
 #header > .menu_area {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  height: 60px;
-  background-color: #11111133;
+  align-items: center;
 }
-.menu_area_L {
-  height: 100%;
+.single_icon_area {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 99999px;
+  cursor: pointer;
+  transition: 0.2s;
 }
-/* 
-.menu_area_L > .home_btn {
+.single_icon_area:hover {
+  background-color: #ffffff99;
+}
+.menu_area_C > ul {
+  display: flex;
+  justify-content: center;
+}
+.menu_area_C > ul > li {
+  width: 100px;
+  height: 50px;
+  margin-right: 25px;
+}
+.menu_area_C > ul > li:last-child {
+  margin-right: 0px;
+}
+.icon_area {  
+  width: 100px;
+  height: 30px;
+  margin: 10px 0;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.ctg_name {
+  height: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.icon_area:hover .ctg_name {
+  background-color: #ffffff99;
+  border-radius: 99999px;
+}
+/* .menu_area_R > .single_icon_area {}
+.menu_area_R > .single_icon_area > .night_icon {}
+.menu_area_R > .single_icon_area > .day_icon {
+  display: none;
+} */
 
-babelrc 설정 어떻게 하는가
+
+/* Homepage.js */
+#home_wrap {
+  margin: 0 auto;
+  background-color: transparent;
 }
-*/

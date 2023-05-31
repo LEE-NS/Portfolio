@@ -17,99 +17,85 @@ a {
   color: inherit;
 }
 
-/* Component - Navbar.js */
-#nav_wrap {
-  height: 80px;
+/* App.js */
+#main_wrap {
   min-width: 768px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+/* Component - Navbar.js (pc) */
+#nav_wrap {
+  height: 90px;
   margin: 0 auto;
 }
 #header {
-  position: fixed;
   width: 100%;
   height: 80px;
-  background-color: #bbbbbb33;
 }
 #header > .menu_area {
-  width: 90%;
-  height: 80px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.menu_area_L {
+.single_icon_area {
   width: 50px;
   height: 50px;
-}
-.home_icon_area {
-  width: 50px;
-  height: 50px;
-  padding: 12px;
+  padding: 10px;
   text-align: center;
-  line-height: 25px;
+  line-height: 30px;
   border-radius: 99999px;
   cursor: pointer;
-  transition: 0.1s;
-  background-color: #fff;
+  transition: 0.2s;
 }
-.home_icon_area:hover {
-  background-color: #59815b;
+.single_icon_area:hover {
+  background-color: #ffffff99;
 }
-.home_icon_area:hover .home_btn {
-  color: #fff;
+.menu_area_C > ul {
+  display: flex;
+  justify-content: center;
 }
-.menu_area_R {
-  width: 40%;
+.menu_area_C > ul > li {
+  width: 100px;
   height: 50px;
-}
-.menu_area_R > ul {
-  display: flex;
-  justify-content: right;
-}
-.menu_area_R > ul > li {
   margin-right: 25px;
-  display: flex;
-  justify-content: space-between;
 }
-.menu_area_R > ul > li:last-child {
+.menu_area_C > ul > li:last-child {
   margin-right: 0px;
 }
 .icon_area {  
-  width: 50px;
-  height: 50px;
-  padding: 10px 15px;
+  width: 100px;
+  height: 30px;
+  margin: 10px 0;
   line-height: 30px;
-  overflow: hidden;
-  transition: 0.3s;
-  cursor: pointer;
-
-  background-color: #fff;
-  border-radius: 99999px;
-}
-.icon_wrap {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
   text-align: center;
+  cursor: pointer;
 }
 .ctg_name {
-  display: inline-block;
   height: 30px;
   text-align: center;
-  text-indent: 25px;
   font-weight: 500;
   font-size: 15px;
+  transition: 0.2s;
 }
-.menu_area_R > ul > li:hover .icon_area {
-  width: 150px;
-  background-color: #59815b;
-  color: #fff;
+.icon_area:hover .ctg_name {
+  background-color: #ffffff99;
+  border-radius: 99999px;
 }
+/* .menu_area_R > .single_icon_area {}
+.menu_area_R > .single_icon_area > .night_icon {}
+.menu_area_R > .single_icon_area > .day_icon {
+  display: none;
+} */
 
-/* Component - Welcome.js */
-#welcome_wrap {
-  position: relative;
-  background-color: bisque;
-  height: 100vh;
+
+/* Homepage.js */
+#home_wrap {
+  margin: 0 auto;
+  background-color: transparent;
 }

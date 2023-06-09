@@ -13,7 +13,7 @@ function App() {
       </Routes>
       <Contact />
     </div>
-    /* 이 아래로 Component들이 들어온다. 또는 Route들 */
+    /* 이 아래로 Component, Route 가 들어온다 */
   );
 }
 

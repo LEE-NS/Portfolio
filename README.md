@@ -18,6 +18,6 @@
 - to do list - js</br>
 - website renewal - js
 ### React
-- Rsp game - react</br>
+- 가위바위보 game - react</br>
 - weather api - react(api)</br>
 - shopping mall - react(route, redux, api)

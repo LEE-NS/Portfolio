@@ -20,6 +20,6 @@ function App() {
 export default App;
 
 /* 
-Welcome 컴포넌트는 화면 전체를 가려야 한다. 페이지로 만들어야 하나?
+Welcome 없이 gnb 바로 아래에 사이트 소개를 넣는다
 
 */

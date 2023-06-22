@@ -20,4 +20,4 @@
 ### React
 - 가위바위보 - react</br>
 - weather api - react(api)</br>
-- shopping mall - react(route, redux, api)
+- shopping mall page - react(route, redux, api)

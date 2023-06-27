@@ -18,6 +18,6 @@
 - to do list - js</br>
 - website renewal - js
 ### React
-- 가위바위보 - react</br>
+- 가위바위보 게임 - react</br>
 - weather api - react(api)</br>
 - shopping mall page - react(route, redux, api)

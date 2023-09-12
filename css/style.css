@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* 모바일 사이즈 */
+#wrap {
+    position: relative;
+    min-width: 320px;
+}
+/* header */
+#header-wrap {
+    height: 80px;
+    margin: 0 auto;
+}
+#fixed-gnb {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+#gnb-L {
+    display: none;
+}
+.menu-index {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 16px auto;
+    width: 320px;
+    text-align: center;
+    font-size: 12px;
+    background-color: beige;
+    border-radius: 25px;
+}
+.menu-index p {
+    z-index: 1;
+    width: 80px;
+    padding: 16px 10px;
+}
+.menu-index #indic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 48px;
+    border-radius: 25px;
+    background-color: grey;
+}
+
+/* main*/
+#container-wrap {
+    position: relative;
+    margin: 0 auto;
+}
+#profile {
+    margin: 20px auto;
+    text-align: center;
+}
+.profile-title {
+    font-size: 35px;
+}
+.profile-title:nth-child(1) {
+    
+}
+
